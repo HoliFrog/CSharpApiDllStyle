@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagDllStyle", "TagDllStyle\TagDllStyle.csproj", "{6DCF4626-CAE3-4E73-9C97-969F2A0C80B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagDlls", "ClassLibrary1\TagDlls.csproj", "{4C2E8BFF-4066-497E-9005-41695B0BDF60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllTests", "DllTests\DllTests.csproj", "{19178C47-9674-47EC-BB16-20E655AEE25E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6DCF4626-CAE3-4E73-9C97-969F2A0C80B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCF4626-CAE3-4E73-9C97-969F2A0C80B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCF4626-CAE3-4E73-9C97-969F2A0C80B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2E8BFF-4066-497E-9005-41695B0BDF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2E8BFF-4066-497E-9005-41695B0BDF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2E8BFF-4066-497E-9005-41695B0BDF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2E8BFF-4066-497E-9005-41695B0BDF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19178C47-9674-47EC-BB16-20E655AEE25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19178C47-9674-47EC-BB16-20E655AEE25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19178C47-9674-47EC-BB16-20E655AEE25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19178C47-9674-47EC-BB16-20E655AEE25E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
