@@ -50,6 +50,8 @@
     <Compile Include="ApiRequest.cs" />
     <Compile Include="RequestStringToDictionnary.cs" />
     <Compile Include="TagCloserToYou.cs" />
+    <Compile Include="TransportLines.cs" />
+    <Compile Include="UrlBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

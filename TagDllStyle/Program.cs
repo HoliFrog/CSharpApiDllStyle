@@ -14,7 +14,7 @@ namespace TagDllStyle
         static void Main(string[] args)
         {
             DataCallToDll call = new DataCallToDll();
-            call.DisplayDataCalled();
+            call.DisplayDataCalled("5.728221", "45.185692", "15550");
         }
     }
 }

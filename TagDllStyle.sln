@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagDlls", "ClassLibrary1\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllTests", "DllTests\DllTests.csproj", "{19178C47-9674-47EC-BB16-20E655AEE25E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagApiWPFDisplayer", "TagApiWPFDisplayer\TagApiWPFDisplayer.csproj", "{49E76BC0-7690-4715-9544-1E7ABE820EDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{19178C47-9674-47EC-BB16-20E655AEE25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19178C47-9674-47EC-BB16-20E655AEE25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19178C47-9674-47EC-BB16-20E655AEE25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E76BC0-7690-4715-9544-1E7ABE820EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E76BC0-7690-4715-9544-1E7ABE820EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E76BC0-7690-4715-9544-1E7ABE820EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E76BC0-7690-4715-9544-1E7ABE820EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

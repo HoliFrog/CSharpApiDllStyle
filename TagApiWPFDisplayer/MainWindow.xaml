@@ -1,0 +1,16 @@
+﻿<Window x:Class="TagApiWPFDisplayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TagApiWPFDisplayer"
+        xmlns:MyViews="clr-namespace:TagApiWPFDisplayer.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <Grid>
+            <MyViews:TransportLinesView x:Name = "transportLinesViewControl" Loaded="transportLinesViewControl_Loaded"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

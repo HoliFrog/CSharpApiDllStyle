@@ -1,0 +1,8 @@
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\bin\Release\ClassLibrary1.dll
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\bin\Release\Newtonsoft.Json.dll
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\bin\Release\Newtonsoft.Json.xml
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\obj\Release\TagDlls.csproj.CoreCompileInputs.cache
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\obj\Release\TagDlls.csproj.CopyComplete
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\obj\Release\ClassLibrary1.dll
+C:\Users\olivier.menuel\source\repos\TagDllStyle\ClassLibrary1\obj\Release\ClassLibrary1.pdb

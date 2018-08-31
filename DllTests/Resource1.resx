@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DetailBonne" xml:space="preserve">
+    <value>[{"id":"SEM:16","shortName":"16","longName":"MEYLAN Lycée du Grésivaudan / CORENC Montfleury / PONT-DE-CLAIX Gendarmerie","color":"739ECC","textColor":"FFFFFF","mode":"BUS","type":"PROXIMO"},{"id":"SEM:C4","shortName":"C4","longName":"Grenoble Victor Hugo / Eybens Le Verderet","color":"FFC900","textColor":"000000","mode":"BUS","type":"CHRONO"},{"id":"SEM:13","shortName":"13","longName":"Meylan Lycée du Grésivaudan / Poisat Prémol","color":"00BC9E","textColor":"FFFFFF","mode":"BUS","type":"PROXIMO"}]</value>
+  </data>
+  <data name="DetailChavant" xml:space="preserve">
+    <value>[{"id":"SEM:C1","shortName":"C1","longName":"GRENOBLE Cité Jean Macé / MEYLAN Maupertuis","color":"FFE000","textColor":"000000","mode":"BUS","type":"CHRONO"}]</value>
+  </data>
+  <data name="DetailMartin" xml:space="preserve">
+    <value>[{"id":"SEM:57","shortName":"57","longName":"GRENOBLE Victor Hugo / ST ISMIER Bois Français","color":"522E91","textColor":"FFFFFF","mode":"BUS","type":"FLEXO"},{"id":"SEM:C4","shortName":"C4","longName":"Grenoble Victor Hugo / Eybens Le Verderet","color":"FFC900","textColor":"000000","mode":"BUS","type":"CHRONO"},{"id":"SEM:C1","shortName":"C1","longName":"GRENOBLE Cité Jean Macé / MEYLAN Maupertuis","color":"FFE000","textColor":"000000","mode":"BUS","type":"CHRONO"}]</value>
+  </data>
   <data name="JSon" xml:space="preserve">
     <value>[
 {

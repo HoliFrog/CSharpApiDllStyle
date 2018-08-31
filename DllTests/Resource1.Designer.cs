@@ -61,6 +61,33 @@ namespace DllTests {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to [{&quot;id&quot;:&quot;SEM:16&quot;,&quot;shortName&quot;:&quot;16&quot;,&quot;longName&quot;:&quot;MEYLAN Lycée du Grésivaudan / CORENC Montfleury / PONT-DE-CLAIX Gendarmerie&quot;,&quot;color&quot;:&quot;739ECC&quot;,&quot;textColor&quot;:&quot;FFFFFF&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;PROXIMO&quot;},{&quot;id&quot;:&quot;SEM:C4&quot;,&quot;shortName&quot;:&quot;C4&quot;,&quot;longName&quot;:&quot;Grenoble Victor Hugo / Eybens Le Verderet&quot;,&quot;color&quot;:&quot;FFC900&quot;,&quot;textColor&quot;:&quot;000000&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;CHRONO&quot;},{&quot;id&quot;:&quot;SEM:13&quot;,&quot;shortName&quot;:&quot;13&quot;,&quot;longName&quot;:&quot;Meylan Lycée du Grésivaudan / Poisat Prémol&quot;,&quot;color&quot;:&quot;00BC9E&quot;,&quot;textColor&quot;:&quot;FFFFFF&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;PROXIMO&quot;}].
+        /// </summary>
+        internal static string DetailBonne {
+            get {
+                return ResourceManager.GetString("DetailBonne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{&quot;id&quot;:&quot;SEM:C1&quot;,&quot;shortName&quot;:&quot;C1&quot;,&quot;longName&quot;:&quot;GRENOBLE Cité Jean Macé / MEYLAN Maupertuis&quot;,&quot;color&quot;:&quot;FFE000&quot;,&quot;textColor&quot;:&quot;000000&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;CHRONO&quot;}].
+        /// </summary>
+        internal static string DetailChavant {
+            get {
+                return ResourceManager.GetString("DetailChavant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{&quot;id&quot;:&quot;SEM:57&quot;,&quot;shortName&quot;:&quot;57&quot;,&quot;longName&quot;:&quot;GRENOBLE Victor Hugo / ST ISMIER Bois Français&quot;,&quot;color&quot;:&quot;522E91&quot;,&quot;textColor&quot;:&quot;FFFFFF&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;FLEXO&quot;},{&quot;id&quot;:&quot;SEM:C4&quot;,&quot;shortName&quot;:&quot;C4&quot;,&quot;longName&quot;:&quot;Grenoble Victor Hugo / Eybens Le Verderet&quot;,&quot;color&quot;:&quot;FFC900&quot;,&quot;textColor&quot;:&quot;000000&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;CHRONO&quot;},{&quot;id&quot;:&quot;SEM:C1&quot;,&quot;shortName&quot;:&quot;C1&quot;,&quot;longName&quot;:&quot;GRENOBLE Cité Jean Macé / MEYLAN Maupertuis&quot;,&quot;color&quot;:&quot;FFE000&quot;,&quot;textColor&quot;:&quot;000000&quot;,&quot;mode&quot;:&quot;BUS&quot;,&quot;type&quot;:&quot;CHRONO&quot;}].
+        /// </summary>
+        internal static string DetailMartin {
+            get {
+                return ResourceManager.GetString("DetailMartin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to [
         ///{
         ///&quot;id&quot;: &quot;SEM:1986&quot;,

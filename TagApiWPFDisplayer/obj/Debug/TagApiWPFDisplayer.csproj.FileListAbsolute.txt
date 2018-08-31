@@ -1,0 +1,7 @@
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\TagApiWPFDisplayer.csprojAssemblyReference.cache
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\MainWindow.g.cs
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\Views\TransportLinesView.g.cs
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\App.g.cs
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\TagApiWPFDisplayer_MarkupCompile.cache
+C:\Users\olivier.menuel\source\repos\TagDllStyle\TagApiWPFDisplayer\obj\Debug\TagApiWPFDisplayer_MarkupCompile.lref

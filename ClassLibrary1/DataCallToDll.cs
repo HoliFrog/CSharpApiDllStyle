@@ -7,16 +7,18 @@ using TagDlls;
 
 namespace TagLibrary
 {
+    
     public class DataCallToDll
     {
         private IApiRequest _apiRequest;
         private RequestStringToDictionnary mRequestStringToDictionnary;
         private DisplayDataInConsole mDisplayDataInConsole;
+       
 
         internal DataCallToDll(IApiRequest apiRequest)
         {
             this._apiRequest = apiRequest;
-            mRequestStringToDictionnary = new RequestStringToDictionnary();
+            mRequestStringToDictionnary = new RequestStringToDictionnary(_apiRequest);
             mDisplayDataInConsole = new DisplayDataInConsole();
         }
         
@@ -24,21 +26,22 @@ namespace TagLibrary
             : this(new ApiRequest())
         {
         }
+ 
 
-        string url = "http://data.metromobilite.fr/api/linesNear/json?x=5.728221&y=45.185692&dist=550&details=true";
-
-
-        public Dictionary<string, List<string>> CallToDll()
+        public Dictionary<string, List<TransportLines>> CallToDll(string lonX, string latY, string distance)
+        { 
+            return mRequestStringToDictionnary.StringToDictionnary(rawStringResponse(lonX, latY, distance));
+        }
+        public string rawStringResponse(string lonX, string latY, string distance)
         {
-            string rawString = _apiRequest.DoRequest(url);
-            Dictionary<string, List<string>> data = mRequestStringToDictionnary.StringToDictionnary(rawString);
-
-            return data;
+            string Url = UrlBuilder.StopUrlBuilder(lonX, latY, distance);
+            string rawString = _apiRequest.DoRequest(Url);
+            return rawString;
         }
 
-        public void DisplayDataCalled()
+        public void DisplayDataCalled(string lonX, string latY, string distance)
         {
-            mDisplayDataInConsole.Display(CallToDll());
+            mDisplayDataInConsole.DisplayLinesDetails(CallToDll(lonX, latY, distance));
         }
     }
 }
