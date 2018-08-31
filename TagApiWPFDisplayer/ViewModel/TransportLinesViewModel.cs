@@ -14,7 +14,8 @@ namespace TagApiWPFDisplayer.ViewModel
 {
     class TransportLinesViewModel : INotifyPropertyChanged
     {
-           public DataCallToDll mDataCallToDll = new DataCallToDll();
+        public DataCallToDll mDataCallToDll = new DataCallToDll();
+        
         public ObservableCollection<StationWithLinesAndDetails> mStationWithLinesAndDetails
         {
             get;
@@ -63,7 +64,6 @@ namespace TagApiWPFDisplayer.ViewModel
         private void DoStuff()
         {
             FillObsevableDictionary();
-
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

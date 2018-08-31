@@ -7,66 +7,29 @@ using System.Threading.Tasks;
 
 namespace TagApiWPFDisplayer.Model
 {
-    public class RequestParameters : INotifyPropertyChanged
+    public class RequestParameters
     {
-        private string _long;
-        private string _lat;
-        private string _dist;
+      
 
         public RequestParameters()
         {
-            _long = "5.728221";
-            _lat = "45.185692";
-            _dist = "550";
+            Long = "5.728221";
+            Lat = "45.185692";
+            Dist = "550";
         }
 
         public string Long
-        {
-            get { return _long; }
-            set
-            {
-                if (_long != value)
-                {
-                    _long = value;
-                    RaisePropertyChanged("Long");
-                }
-            }
-        }
+        
+            { get; set; }
+        
 
         public string Lat
-        {
-            get { return _lat; }
-            set
-            {
-                if (_lat != value)
-                {
-                    _lat = value;
-                    RaisePropertyChanged("Lat");
-                }
-            }
-        }
-
+    
+           { get; set; }
+        
         public string Dist
-        {
-            get { return _dist; }
-            set
-            {
-                if (_dist != value)
-                {
-                    _dist = value;
-                    RaisePropertyChanged("Dist");
-                }
-            }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        private void RaisePropertyChanged(string property)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
-            }
-        }
+        
+            { get; set; }
+        
     }
 }
